@@ -2,31 +2,32 @@
 <html>
 <head>
 	<title>Work Record</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 	<nav class="navbar navbar-dark bg-dark">
-	  <span class="navbar-brand mb-0 h1">Work Record</span>
+	  <span class="navbar-brand mb-0 h1 title">Work Record</span>
 	</nav>
 
 	<div class="container my-3">
-		<div class="card">
+		<div class="card card-theme">
 		  <div class="card-body">
-		    <h5 class="card-title">Add a Task in your list</h5>
+		    <h5 class="card-title title">Add a Task in your list</h5>
 		    <div class="form-group">
-			    <label for="exampleInputEmail1">Task Description</label>
+			    <label for="exampleInputEmail1" class="label">Task Description</label>
 			    <input type="text" class="form-control" id="taskText">
 			</div>
-		    <button id="addTask" class="btn btn-primary">ADD TASK</button>
+		    <button id="addTask" class="btn add-task">ADD TASK</button>
 		  </div>
 		</div>
 
 		<div class="row my-3">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card card-theme">
 				  <div class="card-body">
-				    <h5 class="card-title">To-do List</h5>
+				    <h5 class="card-title title">TO-DO List</h5>
 				    <div id="taskList" class="list-group">
 					</div>
 				</div>

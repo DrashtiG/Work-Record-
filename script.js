@@ -40,8 +40,8 @@ function showTasks(){
 	{
 		html += `
 			<div class="list-group-item">
-			    <p class="mb-1">${tasksList[i]}</p>
-			    <button id="${i}" onclick="deleteTask(this.id)" class="btn btn-primary my-2" id="doneBtn">Done</button>
+			    <p class="mb-1 task-label">${tasksList[i]}</p>
+			    <button id="${i}" onclick="deleteTask(this.id)" class="btn done-task my-2" id="doneBtn">Done</button>
 			  </div>
 			`;
 	}
@@ -49,7 +49,7 @@ function showTasks(){
 	if(tasksList.length != 0)
 		list.innerHTML = html;
 	else
-		list.innerHTML = "No items in the To-do list to display.";
+		list.innerHTML = "No items in the TO-DO list to display.";
 }
 
 function deleteTask(index){
