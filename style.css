@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #cccccc;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.task-label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card-theme {
+    box-shadow: 10px 10px 20px 0.5px #666666;
+}
+
+.done-task {
+    color: white;
+    background-color: #6D83F2;
+    outline: none;
+    border: none;
+}
+
+.done-task:hover {
+    color: #6D83F2;
+    background-color: white;
+    border: 1px solid #6D83F2;
+    outline: none;
+}
+
+.add-task {
+    color: white;
+    background-color: #6D83F2;
+    outline: none;
+    border: none;
+}
+
+.add-task:hover {
+    color: #6D83F2;
+    background-color: white;
+    border: 1px solid #6D83F2;
+    outline: none;
+}
+
+input[type="text"] {
+    outline: none;
+    font-family: ;
+}
