@@ -11,25 +11,38 @@
 	  <span class="navbar-brand mb-0 h1 title">Work Record</span>
 	</nav>
 
-	<div class="container my-3">
-		<div class="card card-theme">
-		  <div class="card-body">
-		    <h5 class="card-title title">Add a Task in your list</h5>
-		    <div class="form-group">
-			    <label for="exampleInputEmail1" class="label">Task Description</label>
-			    <input type="text" class="form-control" id="taskText">
-			</div>
-		    <button id="addTask" class="btn add-task">ADD TASK</button>
-		  </div>
-		</div>
-
+	<div class="container">
 		<div class="row my-3">
-			<div class="col-md-6">
+			<div class="col-sm-12">
+				<div class="card card-theme">
+					<div class="card-body">
+					  <h5 class="card-title title">Add a Task in your list</h5>
+					  <div class="form-group">
+						  <label for="exampleInputEmail1" class="label">Task Description</label>
+						  <input type="text" class="form-control" id="taskText">
+					  </div>
+					  <button id="addTask" class="btn add-task">ADD TASK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row my-3">
+			<div class="col-sm-6">
 				<div class="card card-theme">
 				  <div class="card-body">
 				    <h5 class="card-title title">TO-DO List</h5>
 				    <div id="taskList" class="list-group">
 					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card card-theme">
+				  <div class="card-body">
+				    <h5 class="card-title title">Doing List</h5>
+				    <div id="doingList" class="list-group">
+					</div>
+				  </div>
 				</div>
 			</div>
 		</div>

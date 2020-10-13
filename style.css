@@ -24,14 +24,14 @@ body {
     box-shadow: 10px 10px 20px 0.5px #666666;
 }
 
-.done-task {
+.doing-task, .done-task {
     color: white;
     background-color: #6D83F2;
     outline: none;
     border: none;
 }
 
-.done-task:hover {
+.doing-task:hover, .done-task:hover {
     color: #6D83F2;
     background-color: white;
     border: 1px solid #6D83F2;
@@ -54,5 +54,5 @@ body {
 
 input[type="text"] {
     outline: none;
-    font-family: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
